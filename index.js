@@ -48,7 +48,7 @@ const scrapper = async () => {
     websiteSocialMdeia.push({socialLink, socialName})
   })
 
-  console.log(celebrities.length);
+  console.log(celebrities);
   console.log(websiteSocialMdeia);
 }
 
