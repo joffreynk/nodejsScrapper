@@ -24,7 +24,6 @@ const scrapper = async () => {
   const celebrities = [];
   const websiteSocialMdeia = [];
   const writeStream = fs.createWriteStream("celebraties.json");
-  // const writable = fs.openSync('data.json', 'w+')
 
   // scrap data from a web page
   $('#tax-sc__recirc-list_1-0').find('a').each((i, element) => {
@@ -53,6 +52,7 @@ const scrapper = async () => {
     websiteSocialMdeia.push({socialLink, socialName})
   })
 
+  // save files in clebraties.json
   writeStream.write(JSON.stringify(celebrities))
   writeStream.write('\n')
   writeStream.write(JSON.stringify(websiteSocialMdeia))
