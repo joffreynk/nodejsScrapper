@@ -41,7 +41,7 @@ in the project folder go to terminal and run ```npm start```
 
 ### Testing cases:
 
-The App will create a file called ```celebraties.json ``` and write in all data retrieved from the website.
+The App will create a file called ```celebraties.json``` and write in all data retrieved from the website.
 
 ### Done!
 
